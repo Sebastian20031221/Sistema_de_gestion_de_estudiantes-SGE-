@@ -1,0 +1,16 @@
+flowchart TD
+  A([INICIO mostrarEstudiantes]) --> B{"¿totalEstudiantes = 0?"}
+  B -- Sí --> B1[/"Mostrar: no hay estudiantes"/] --> Z([FIN])
+  B -- No --> C[/"Leer orden (1 o 2)"/]
+  C --> D{"¿orden = 1?"}
+  D -- Sí --> E["i ← 0, fin ← n, paso ← +1<br/>(ascendente)"]
+  D -- No --> F["i ← n-1, fin ← -1, paso ← -1<br/>(descendente)"]
+  E --> G{"¿i ≠ fin?"}
+  F --> G
+  G -- Sí --> H[/"mostrar fila de estudiantes[i]"/]
+  H --> I["i ← i + paso"] --> G
+  G -- No --> J[/"Mostrar total de estudiantes"/] --> Z
+  class A,Z term
+  class E,F,I proc
+  class B,D,G dec
+  class B1,C,H,J io

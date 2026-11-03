@@ -1,0 +1,20 @@
+$ python sge.py
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [0/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 3001
+
+
+  Ejecución interrumpida por el usuario. Programa finalizado.
+

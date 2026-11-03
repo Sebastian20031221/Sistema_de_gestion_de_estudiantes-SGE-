@@ -1,0 +1,277 @@
+$ python sge.py
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [0/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: abc
+  [!] Debe ingresar un número entero. Intente de nuevo.
+  Seleccione una opción: 9
+  [!] El valor debe ser menor o igual a 5.
+  Seleccione una opción: 2
+
+============================================================
+  LISTA DE ESTUDIANTES
+============================================================
+  No hay estudiantes registrados todavía.
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [0/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 3
+
+============================================================
+  BUSCAR ESTUDIANTE POR ID
+============================================================
+  No hay estudiantes registrados para buscar.
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [0/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: doce
+  [!] Debe ingresar un número entero. Intente de nuevo.
+  ID del estudiante: 1001
+  Nombre completo: Laura Gómez 2
+  [!] Solo se permiten letras y espacios.
+  Nombre completo: laura   gómez
+  Edad: 8
+  [!] El valor debe ser mayor o igual a 14.
+  Edad: 19
+  Programa académico: ingeniería de software
+  Nota promedio (0.0 - 5.0): 6
+  [!] El valor debe estar entre 0.0 y 5.0.
+  Nota promedio (0.0 - 5.0): 4,5
+
+  [OK] Estudiante registrado. Total actual: 1
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [1/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 1002
+  Nombre completo: Carlos Ramírez
+  Edad: 22
+  Programa académico: Administración de empresas
+  Nota promedio (0.0 - 5.0): 2.8
+
+  [OK] Estudiante registrado. Total actual: 2
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [2/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 1001
+  [!] Ya existe un estudiante con el ID 1001.
+  Ingrese otro ID: 1003
+  Nombre completo: Valentina Torres
+  Edad: 20
+  Programa académico: Psicología
+  Nota promedio (0.0 - 5.0): 4.8
+
+  [OK] Estudiante registrado. Total actual: 3
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [3/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 1004
+  Nombre completo: Andrés Moreno
+  Edad: 25
+  Programa académico: Contaduría pública
+  Nota promedio (0.0 - 5.0): 3.6
+
+  [OK] Estudiante registrado. Total actual: 4
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 2
+
+============================================================
+  LISTA DE ESTUDIANTES
+============================================================
+  1. Orden de registro (primero al último)
+  2. Orden inverso (último al primero)
+  Seleccione el orden: 1
+
+  #   ID         Nombre                       Edad  Programa                     Nota
+  --------------------------------------------------------------------------------
+  1   1001       Laura Gómez                  19    Ingeniería de software       4.5
+  2   1002       Carlos Ramírez               22    Administración de empresas   2.8
+  3   1003       Valentina Torres             20    Psicología                   4.8
+  4   1004       Andrés Moreno                25    Contaduría pública           3.6
+  --------------------------------------------------------------------------------
+  Total de estudiantes: 4
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 2
+
+============================================================
+  LISTA DE ESTUDIANTES
+============================================================
+  1. Orden de registro (primero al último)
+  2. Orden inverso (último al primero)
+  Seleccione el orden: 2
+
+  #   ID         Nombre                       Edad  Programa                     Nota
+  --------------------------------------------------------------------------------
+  1   1004       Andrés Moreno                25    Contaduría pública           3.6
+  2   1003       Valentina Torres             20    Psicología                   4.8
+  3   1002       Carlos Ramírez               22    Administración de empresas   2.8
+  4   1001       Laura Gómez                  19    Ingeniería de software       4.5
+  --------------------------------------------------------------------------------
+  Total de estudiantes: 4
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 3
+
+============================================================
+  BUSCAR ESTUDIANTE POR ID
+============================================================
+  Ingrese el ID a buscar: 1003
+
+  [OK] Estudiante encontrado:
+  ID: 1003
+  Nombre: Valentina Torres
+  Edad: 20 años
+  Programa: Psicología
+  Nota: 4.8  (Aprobado)
+  (Comparaciones realizadas: 3 de 4)
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 3
+
+============================================================
+  BUSCAR ESTUDIANTE POR ID
+============================================================
+  Ingrese el ID a buscar: 1001
+
+  [OK] Estudiante encontrado:
+  ID: 1001
+  Nombre: Laura Gómez
+  Edad: 19 años
+  Programa: Ingeniería de software
+  Nota: 4.5  (Aprobado)
+  (Comparaciones realizadas: 1 de 4)
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 3
+
+============================================================
+  BUSCAR ESTUDIANTE POR ID
+============================================================
+  Ingrese el ID a buscar: 9999
+
+  [X] No existe ningún estudiante con el ID 9999.
+  (Comparaciones realizadas: 4 de 4)
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 4
+
+============================================================
+  ESTADÍSTICAS DEL GRUPO
+============================================================
+  Estudiantes registrados: 4 de 50
+  Promedio general:        3.92
+  Aprobados (>= 3.0):      3
+  Reprobados:              1
+  Mejor nota:              4.8 (Valentina Torres)
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [4/50]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 5
+
+  Gracias por usar el SGE. ¡Hasta pronto!
+

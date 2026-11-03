@@ -1,0 +1,19 @@
+flowchart TD
+  A([INICIO buscarEstudiante]) --> A2[/"Leer idBuscado"/]
+  A2 --> B["encontrado ← Falso<br/>indice ← -1<br/>comparaciones ← 0<br/>posicion ← 0"]
+  B --> C{"¿posicion < n?"}
+  C -- No --> G
+  C -- Sí --> D["comparaciones ← comparaciones + 1"]
+  D --> E{"¿estudiantes[posicion].id<br/>= idBuscado?"}
+  E -- No --> F["posicion ← posicion + 1"] --> C
+  E -- Sí --> E1["encontrado ← Verdadero<br/>indice ← posicion<br/>(romper ciclo)"]
+  E1 --> G{"¿encontrado?"}
+  G -- Sí --> H[/"Mostrar datos del estudiante"/]
+  G -- No --> I[/"Mostrar: no existe el ID"/]
+  H --> J[/"Mostrar número de comparaciones"/]
+  I --> J
+  J --> Z([FIN])
+  class A,Z term
+  class B,D,F,E1 proc
+  class C,E,G dec
+  class A2,H,I,J io

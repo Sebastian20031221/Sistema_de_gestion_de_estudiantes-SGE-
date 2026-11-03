@@ -1,0 +1,20 @@
+flowchart TD
+  A([INICIO agregarEstudiante]) --> B{"¿totalEstudiantes<br/>≥ MAX_ESTUDIANTES?"}
+  B -- Sí --> B1[/"Mostrar: capacidad máxima alcanzada"/]
+  B1 --> Z([RETORNAR totalEstudiantes])
+  B -- No --> C[/"Leer ID"/]
+  C --> D{"¿ID es entero ≥ 1?"}
+  D -- No --> D1[/"Mostrar: dato inválido"/] --> C
+  D -- Sí --> E["indice ← buscarIndicePorId(ID)"]
+  E --> F{"¿indice ≠ -1?<br/>(ID repetido)"}
+  F -- Sí --> F1[/"Mostrar: ID ya existe"/] --> C
+  F -- No --> G[/"Leer nombre, edad,<br/>programa y nota"/]
+  G --> H{"¿datos válidos?<br/>(letras, 14-100 años, 0.0-5.0)"}
+  H -- No --> H1[/"Mostrar error y<br/>volver a pedir el dato"/] --> G
+  H -- Sí --> I["Crear diccionario estudiante<br/>estudiantes.agregar(estudiante)<br/>totalEstudiantes ← totalEstudiantes + 1"]
+  I --> J[/"Mostrar: estudiante registrado"/]
+  J --> Z
+  class A,Z term
+  class E,I proc
+  class B,D,F,H dec
+  class B1,C,D1,F1,G,H1,J io

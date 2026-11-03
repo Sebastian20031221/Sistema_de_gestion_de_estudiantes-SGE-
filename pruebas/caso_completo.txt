@@ -1,0 +1,58 @@
+# Bloque 0: menú inicial, opciones inválidas y lista vacía
+abc
+9
+2
+# Bloque 1: búsqueda sin estudiantes
+3
+# Bloque 2: agregar con errores de entrada
+1
+doce
+1001
+Laura Gómez 2
+laura   gómez
+8
+19
+ingeniería de software
+6
+4,5
+# Bloque 3
+1
+1002
+Carlos Ramírez
+22
+Administración de empresas
+2.8
+# Bloque 4: ID duplicado
+1
+1001
+1003
+Valentina Torres
+20
+Psicología
+4.8
+# Bloque 5
+1
+1004
+Andrés Moreno
+25
+Contaduría pública
+3.6
+# Bloque 6: mostrar ascendente
+2
+1
+# Bloque 7: mostrar descendente
+2
+2
+# Bloque 8: búsqueda exitosa
+3
+1003
+# Bloque 9: búsqueda mejor caso
+3
+1001
+# Bloque 10: búsqueda fallida
+3
+9999
+# Bloque 11: estadísticas
+4
+# Bloque 12: salir
+5

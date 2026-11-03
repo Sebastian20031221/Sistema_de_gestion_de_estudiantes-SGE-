@@ -1,0 +1,71 @@
+$ python sge.py
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [0/2]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 2001
+  Nombre completo: Sofía Rincón
+  Edad: 18
+  Programa académico: Derecho
+  Nota promedio (0.0 - 5.0): 3.9
+
+  [OK] Estudiante registrado. Total actual: 1
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [1/2]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  ID del estudiante: 2002
+  Nombre completo: Mateo Pérez
+  Edad: 21
+  Programa académico: Ingeniería industrial
+  Nota promedio (0.0 - 5.0): 0
+
+  [OK] Estudiante registrado. Total actual: 2
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [2/2]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 1
+
+============================================================
+  AGREGAR ESTUDIANTE
+============================================================
+  [!] Capacidad máxima alcanzada (2 estudiantes).
+
+============================================================
+  SISTEMA DE GESTIÓN DE ESTUDIANTES   [2/2]
+============================================================
+  1. Agregar estudiante
+  2. Mostrar estudiantes
+  3. Buscar estudiante por ID
+  4. Ver estadísticas
+  5. Salir
+  Seleccione una opción: 5
+
+  Gracias por usar el SGE. ¡Hasta pronto!
+

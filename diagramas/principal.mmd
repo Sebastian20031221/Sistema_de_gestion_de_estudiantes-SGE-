@@ -1,0 +1,27 @@
+flowchart TD
+  A([INICIO]) --> B["estudiantes ← lista vacía<br/>totalEstudiantes ← 0<br/>banderaSalir ← Falso"]
+  B --> C{"¿banderaSalir<br/>= Falso?"}
+  C -- No --> Z1[/"Mostrar: Gracias por usar el SGE"/]
+  Z1 --> Z([FIN])
+  C -- Sí --> D[/"Mostrar menú principal<br/>1. Agregar  2. Mostrar<br/>3. Buscar  4. Estadísticas<br/>5. Salir"/]
+  D --> E[/"Leer opción"/]
+  E --> F{"¿opción es entero<br/>entre 1 y 5?"}
+  F -- No --> G[/"Mostrar: opción inválida"/]
+  G --> E
+  F -- Sí --> H{"opción"}
+  H -- 1 --> O1["agregarEstudiante()<br/>totalEstudiantes ← totalEstudiantes + 1"]
+  H -- 2 --> O2["mostrarEstudiantes()<br/>(ascendente o descendente)"]
+  H -- 3 --> O3["buscarEstudiante()<br/>(búsqueda lineal por ID)"]
+  H -- 4 --> O4["mostrarEstadisticas()<br/>(promedio, aprobados, mejor nota)"]
+  H -- 5 --> O5["banderaSalir ← Verdadero"]
+  O1 --> K(("A"))
+  O2 --> K
+  O3 --> K
+  O4 --> K
+  O5 --> K
+  K --> C
+  class A,Z term
+  class B,O1,O2,O3,O4,O5 proc
+  class C,F,H dec
+  class K term
+  class D,E,G,Z1 io

@@ -1,0 +1,15 @@
+# Capacidad máxima reducida a 2 para probar el límite del arreglo
+1
+2001
+Sofía Rincón
+18
+Derecho
+3.9
+1
+2002
+Mateo Pérez
+21
+Ingeniería industrial
+0
+1
+5
